@@ -1,34 +1,163 @@
-body 
-{font-family: 'Montserrat', sans-serif}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eff5ff;
+}
+
+.main-container {
+  display: flex;
+
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 44px;
+  box-sizing: border-box;
+
+  width: 1170px;
+  justify-content: space-between;
+}
+
+.game-container {
+  width: 440px;
+}
+
+.instructions-container {
+  width: 274px;
+}
 
 .logo {
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .about-me-container {
-margin: 0 auto;
-width: 274px;
+  width: 274px;
 }
 
 .my-name {
-margin-top: 20px;
-margin-bottom: 32px;
-    
-color: #262630;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px; 
+  margin-top: 20px;
+  margin-bottom: 32px;
+
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
-    
+
 .about-me-list {
-padding-left: 14px;
+  padding-left: 14px;
 }
 
 .about-me-list-item {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 
-color: #262630;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+  color: #262630;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.game-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+
+  color: #262630;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.game-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+
+  width: 440px;
+  height: 440px;
+
+  background: #d5e3ff;
+}
+
+.game-canvas {
+  border: 1px solid #9eadf2;
+  background: #fff;
+}
+
+.game-score {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.game-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.game-start {
+  margin-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  background: #ff6b0a;
+  border: none;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  cursor: pointer;
+}
+
+.game-reset {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  border: 1px solid #ff6b0a;
+
+  color: #ff6b0a;
+  background: #eff5ff;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  cursor: pointer;
+}
+
+.instructions-title {
+  margin-top: 90px;
+  margin-bottom: 32px;
+
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.instructions-list {
+  padding-left: 16px;
+}
+
+.instructions-list-item {
+  margin-bottom: 16px;
+
+  color: #262630;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
