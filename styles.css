@@ -25,6 +25,7 @@ body {
 
 .logo {
   margin-bottom: 60px;
+  border-radius: 50%;
 }
 
 .about-me-container {
